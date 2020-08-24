@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    background-color: #ff2a6b;
+    max-width: 400px;
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+    border-radius: 4px;
+    margin: 0 auto;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.hero {
+    padding: 70px 0;
+    background: url(/Images/page-top-bg.jpg);
+}
+
+h2 {
+    color: #474747;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 65px;
+    font-size: 36px;
+    font-weight: 600px;
+}
+
+.about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font: 14px;
+    color: #838383;
+}
+
+.about_read-more {
+    margin-top: 20px;
+    background-color: #ff2a6b;
+    width: 150px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border: 0px;
+}
+
+.facts {
+    padding: 70px 0 70px 0;
+    background-color: #eff3f7;
+    align-content: center;
+    text-align: center;
+    font-weight: 600;
+}
+h3 {
+    padding: 20px 0 10px 0;
+    font-size: 48px;
+}
