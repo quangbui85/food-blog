@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
 h1 {
     color: white;
     background-color: #ff2a6b;
@@ -14,6 +24,11 @@ h1 {
     margin: 0 auto;
     font-size: 72px;
     font-weight: 700;
+
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in-out;
 }
 
 .hero {
@@ -23,7 +38,6 @@ h1 {
 
 h2 {
     color: #474747;
-    padding: 0px 0px 0px 0px;
     margin-bottom: 65px;
     font-size: 36px;
     font-weight: 600px;

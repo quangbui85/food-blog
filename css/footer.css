@@ -9,7 +9,7 @@ footer {
     list-style-type: none;
     padding: 20px 0px 20px 0px;
     margin: 0;
-    align-items: left;
+    align-items: flex-start;
     font: 14px;
     font-weight: 600px;
 }
@@ -29,17 +29,21 @@ footer {
     list-style-type: none;
     padding: 20px 50px 20px 0px;
     margin-right: 0;
-    align-items: center;
+    justify-content: flex-end;
     font: 14px;
     font-weight: 600px;
 }
 
-.copyright > ul {
+/* .copyright > ul {
     margin-right: -2rem;
-}
+} */
 
 .copyright > li {
     margin-right: 3rem;
+}
+
+.copyright > li:hover {
+    color: #ff2a6b;
 }
 
 .copyright > li > a {

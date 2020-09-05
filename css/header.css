@@ -61,6 +61,10 @@
     text-decoration: none;
 }
 
+.top-nav_menu > li > a:hover {
+    color: #ff2a6b;
+}
+
 /* Top-nav Search */
 .top-nav_search {
     list-style-type: none;
