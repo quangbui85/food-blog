@@ -34,7 +34,10 @@ h1 {
 
 .hero {
     padding: 70px 0;
-    background: url(/Images/page-top-bg.jpg);
+    background-image: url(/Images/page-top-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
 }
 
 .latest-recipies {

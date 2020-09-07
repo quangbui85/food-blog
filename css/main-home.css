@@ -1,4 +1,4 @@
- {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -92,7 +92,10 @@ h3 {
 .hero {
     padding: 70px 0;
     height: 650px;
-    background: url(/Images/slider-bg-2.jpg);
+    background-image: url(/Images/slider-bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
 }
 
 .latest-recipies {

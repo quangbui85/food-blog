@@ -71,3 +71,8 @@ h3 {
     padding: 20px 0 10px 0;
     font-size: 48px;
 }
+
+#about a {
+    font-weight: bold;
+    color: #ff2a6b;
+}
