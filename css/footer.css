@@ -23,6 +23,10 @@ footer {
     text-decoration: none;
 }
 
+.social-list > li > a:hover {
+    color: #ff2a6b;
+}
+
 .col-auto1 {
     text-align: right;
 }
@@ -46,7 +50,7 @@ footer {
     padding-left: 3rem;
 }
 
-.copyright > li:hover {
+.copyright > li > a:hover {
     color: #ff2a6b;
 }
 
