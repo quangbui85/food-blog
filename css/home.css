@@ -25,7 +25,7 @@ h1 {
     background-color: #ff2a6b;
     max-width: 800px;
     text-align: center;
-    padding: 5px 30px 5px 30px;
+    padding: 5px 20px 15px 30px;
 
     border-radius: 4px;
     margin: 0 auto;
@@ -109,7 +109,7 @@ h4 {
     justify-content: space-between;
     align-items: center;
 
-    margin: 40px -60px 0px -55px;
+    margin: 40px -60px 0px -15px;
 }
 
 .latest-recipies_line {

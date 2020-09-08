@@ -13,7 +13,7 @@ h1 {
     background-color: #ff2a6b;
     max-width: 350px;
     text-align: center;
-    padding: 5px 30px 5px 30px;
+    padding: 5px 30px 20px 30px;
 
     border-radius: 4px;
     margin: 0 auto;
@@ -106,7 +106,7 @@ h3 {
 }
 
 .number-button {
-    padding: 0px 0px 70px 0;
+    padding: 0px 0px 70px 80px;
 }
 
 .button {
