@@ -48,8 +48,8 @@ h2 {
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    /* align-items: center; */
 
     margin: 40px -60px 0px -15px;
 }
@@ -61,14 +61,15 @@ h2 {
     clip-path: polygon(0 1%, 100% 0, 90% 100%, 0% 100%);
 }
 
-.latest-recipies_list > li {
-    width: 33.333333%;
-    padding: 15px;
-}
 .recipies-list {
     position: relative;
     width: 361.99px;
     height: 311.3px;
+}
+
+.latest-recipies_list > li {
+    width: 33.333333%;
+    padding: 15px;
 }
 
 .recipies-list > img {

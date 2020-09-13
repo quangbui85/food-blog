@@ -154,17 +154,361 @@ h5 {
     display: flex;
     flex-flow: row nowrap;
     list-style-type: none;
-    padding: 0 0 0 0px;
+    padding: 5px 0 0 0px;
+    font-size: 10px;
 }
 
 .recipies-list-star > li {
-    color: yellow;
+    color: #fbb710;
     list-style-type: none;
     font-size: 9px;
-    padding: 0 3px 0 3px;
+    padding: 0 2px 0 2px;
 }
 
 #home a {
     font-weight: bold;
     color: #ff2a6b;
+}
+
+.row-top-rate-recipe {
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: flex-start; */
+}
+
+.top-rate-recipe {
+    background-color: whitesmoke;
+    padding: 6rem 0;
+}
+
+.col-top-rate-recipe-1,
+.col-top-rate-recipe-2 {
+    position: relative;
+    /* width: 100%; */
+    margin-bottom: 0rem;
+}
+
+.col-top-rate-recipe-1 > h4,
+.col-top-rate-recipe-2 > h4 {
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+
+.col-top-rate-recipe-1 > h4::before {
+    content: "";
+    width: 56px;
+    height: 5px;
+    background-color: #ff2a6b;
+    clip-path: polygon(0 1%, 100% 0, 90% 100%, 0% 100%);
+
+    position: absolute;
+    top: -15px;
+    left: 0px;
+}
+
+.col-top-rate-recipe-2 > h4::before {
+    content: "";
+    width: 56px;
+    height: 5px;
+    background-color: #ff2a6b;
+    clip-path: polygon(0 1%, 100% 0, 90% 100%, 0% 100%);
+
+    position: absolute;
+    top: -15px;
+    left: 0px;
+}
+
+.top-rate-recipes,
+.most-liked-recipes {
+    list-style-type: none;
+    padding: 25px 145px 30px 0;
+}
+
+.top-rate-recipes > li,
+.most-liked-recipes > li {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0.6rem 0.5rem 1rem 0;
+}
+
+.top-rate-recipes > li > img,
+.most-liked-recipes > li > img {
+    max-width: 77px;
+    max-height: 77px;
+}
+
+.food-rating {
+    padding-left: 1.3rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.food-rating > span {
+    color: #ff2a6b;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    margin-top: 0.2rem;
+}
+
+.food-rating > h6 {
+    margin-bottom: 0.8rem;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.evaluate__col-3 {
+    width: 30%;
+    margin-left: -24px;
+}
+
+.evaluate__blog {
+    margin-top: 30px;
+    box-shadow: 0 18px 30px rgba(0, 0, 0, 0.15);
+}
+.evalute__blog-image {
+    position: relative;
+}
+.evalute__blog-image .date {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: #ff2a6b;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 24px 15px 30px;
+}
+.evalute__blog-image span {
+    position: relative;
+}
+.evalute__blog-image span::after {
+    position: absolute;
+    content: "";
+    right: -54px;
+    top: -15.4px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 51px solid #ff2a6b;
+}
+.evalute__blog-image > img {
+    width: 100%;
+    vertical-align: middle;
+}
+.evalute__blog-info {
+    padding: 40px 40px 45px;
+    background: #fff;
+    position: relative;
+}
+.evalute__blog-info > h6 {
+    font-size: 18px;
+    margin: 12px 0;
+    font-weight: 500;
+    color: #474747;
+}
+.evalute__blog-info > span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff2a6b;
+    margin: 15px 0;
+}
+.evalute__blog-info > p {
+    font-size: 15px;
+    color: #838383;
+    line-height: 2.1;
+    font-weight: 300;
+    margin: 15px 0;
+}
+.comment {
+    font-size: 12px;
+    color: #474747;
+}
+.arrow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    background: #ff2a6b;
+    color: #fff;
+    font-size: 23px;
+}
+.food-review {
+    padding: 3.8rem 0;
+    background-color: rgba(255, 166, 0, 0.659);
+}
+
+.food-review__review-item {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+
+    padding: 1.3rem 0;
+    margin-bottom: 1.3rem;
+}
+
+/*  BLOCK 4 -- TABLET */
+@media only screen and (min-width: 768px) {
+    .food-review__row {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+
+    .food-review__review-item {
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 0 2rem 0 0;
+    }
+
+    .food-review__row > .food-review__review-item:nth-child(2) {
+        margin-bottom: 0;
+    }
+}
+
+/* BLOCK 4 -- LAPTOP */
+@media only screen and (min-width: 992px) {
+    .food-review {
+        padding: 5rem 0;
+    }
+
+    .food-review__row {
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .food-review__col {
+        width: 50%;
+        padding: 0 1.3rem 0 0;
+    }
+
+    .food-review__review-item {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .food-review__row > .home-block-4__review-item:nth-child(2) {
+        margin-bottom: 0;
+    }
+}
+
+/*  BLOCK 4 - IMAGE */
+.food-review__img {
+    padding: 0 3.8rem;
+    margin-bottom: -6px;
+    position: relative;
+
+    overflow: hidden;
+}
+
+.food-review__img > img {
+    max-width: 100%;
+}
+
+.food-review__datereview {
+    display: flex;
+    align-items: center;
+
+    width: 100px;
+    height: 37px;
+    padding-left: 9px;
+
+    position: absolute;
+    top: 0;
+    left: 3.8rem;
+
+    background-color: #ff2a6b;
+    clip-path: polygon(0 -1%, 100% 0, 90% 100%, 0% 100%);
+}
+
+.food-review__datereview > span {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.food-review__reviewer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: white;
+
+    padding: 1rem 0;
+}
+
+.food-review__reviewer > span {
+    font-size: 12px;
+    color: #ff2a6b;
+    font-weight: 500;
+}
+
+.food-review__reviewer > ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 10px;
+    padding-top: 12px 0;
+}
+
+.food-review__reviewer > ul > li {
+    color: #fbb710;
+    padding: 0 2px 0 0;
+}
+
+.food-review__writer {
+    text-align: center;
+}
+.food-review__writer > p {
+    padding: 5px 0;
+    font-size: 14.1px;
+    color: #838383;
+    line-height: 2.1;
+}
+
+.food-review__writer > img {
+    border-radius: 50%;
+    background-size: 100%;
+    width: 38px;
+    height: 38px;
+}
+
+/* BLOCK 4 - INSIDE OF COLUMN -- TABLET AND LAPTOP  */
+@media only screen and (min-width: 768px) {
+    .food-review__img {
+        padding: 0 0;
+        margin-bottom: -11px;
+    }
+
+    .food-review__img > img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .food-review__datereview {
+        left: 0;
+    }
+
+    .food-review__reviewer {
+        align-items: flex-start;
+        padding: 1rem 0 0rem 1.3rem;
+    }
+
+    .food-review__writer {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+
+    .food-review__writer > img {
+        border-radius: 50%;
+        margin: 0rem 1rem 0 0;
+    }
+
+    .food-review__writer > p {
+        padding: 1rem 0rem 0 0;
+    }
 }
