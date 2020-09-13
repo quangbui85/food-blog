@@ -352,7 +352,6 @@ h5 {
     margin-bottom: 1.3rem;
 }
 
-/*  BLOCK 4 -- TABLET */
 @media only screen and (min-width: 768px) {
     .food-review__row {
         display: flex;
@@ -371,7 +370,6 @@ h5 {
     }
 }
 
-/* BLOCK 4 -- LAPTOP */
 @media only screen and (min-width: 992px) {
     .food-review {
         padding: 5rem 0;
@@ -397,7 +395,6 @@ h5 {
     }
 }
 
-/*  BLOCK 4 - IMAGE */
 .food-review__img {
     padding: 0 3.8rem;
     margin-bottom: -6px;
@@ -476,7 +473,6 @@ h5 {
     height: 38px;
 }
 
-/* BLOCK 4 - INSIDE OF COLUMN -- TABLET AND LAPTOP  */
 @media only screen and (min-width: 768px) {
     .food-review__img {
         padding: 0 0;

@@ -48,9 +48,6 @@ h2 {
     list-style-type: none;
     display: flex;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    /* align-items: center; */
-
     margin: 40px -60px 0px -15px;
 }
 
